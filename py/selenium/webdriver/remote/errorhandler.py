@@ -13,18 +13,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from selenium.webdriver.common.exceptions import ElementNotSelectableException
-from selenium.webdriver.common.exceptions import ElementNotVisibleException
-from selenium.webdriver.common.exceptions import InvalidCookieDomainException
-from selenium.webdriver.common.exceptions import InvalidElementStateException
-from selenium.webdriver.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.exceptions import NoSuchFrameException
-from selenium.webdriver.common.exceptions import NoSuchWindowException
-from selenium.webdriver.common.exceptions import StaleElementReferenceException
-from selenium.webdriver.common.exceptions import UnableToSetCookieException
-from selenium.webdriver.common.exceptions import ErrorInResponseException
-from selenium.webdriver.common.exceptions import TimeoutException
-from selenium.webdriver.common.exceptions import WebDriverException
+from selenium_old.webdriver.common.exceptions import ElementNotSelectableException
+from selenium_old.webdriver.common.exceptions import ElementNotVisibleException
+from selenium_old.webdriver.common.exceptions import InvalidCookieDomainException
+from selenium_old.webdriver.common.exceptions import InvalidElementStateException
+from selenium_old.webdriver.common.exceptions import NoSuchElementException
+from selenium_old.webdriver.common.exceptions import NoSuchFrameException
+from selenium_old.webdriver.common.exceptions import NoSuchWindowException
+from selenium_old.webdriver.common.exceptions import StaleElementReferenceException
+from selenium_old.webdriver.common.exceptions import UnableToSetCookieException
+from selenium_old.webdriver.common.exceptions import ErrorInResponseException
+from selenium_old.webdriver.common.exceptions import TimeoutException
+from selenium_old.webdriver.common.exceptions import WebDriverException
 
 
 class ErrorCode(object):

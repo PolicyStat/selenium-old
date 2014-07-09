@@ -15,7 +15,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from selenium.selenium import selenium
+from selenium_old.selenium import selenium
 import selenium.webdriver.emulation.base as base
 import selenium.webdriver.emulation.navigation as navigation
 

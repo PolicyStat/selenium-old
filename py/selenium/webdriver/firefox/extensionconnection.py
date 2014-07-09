@@ -19,8 +19,8 @@ import logging
 import socket
 import time
 
-from selenium.webdriver.remote.command import Command
-from selenium.webdriver.remote.remote_connection import RemoteConnection
+from selenium_old.webdriver.remote.command import Command
+from selenium_old.webdriver.remote.remote_connection import RemoteConnection
 
 _DEFAULT_TIMEOUT = 20
 _DEFAULT_PORT = 7055

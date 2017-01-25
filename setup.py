@@ -136,7 +136,6 @@ setup(
         'selenium_old.webdriver.chrome': ['*.zip'],
     },
     include_package_data=True,
-    install_requires=['distribute'],
     zip_safe=False,
 
 )
